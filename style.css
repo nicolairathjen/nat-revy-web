@@ -1,0 +1,48 @@
+.header h1 {
+    display:         flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .menu {
+    display:         flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .menu a {
+    color: black;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.header .menu a:hover,
+.header .menu a.active {
+    text-decoration: underline;
+}
+
+.header .menu a:hover {
+    
+}
+
+body {
+    font-family: "Comic Sans MS";
+}
+
+.card {
+    width:     40%;
+    min-width: 400px;
+    margin:    10px;
+    padding:   5px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content img {
+    max-width:  100%;
+    max-height: 100%;
+}
