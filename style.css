@@ -64,3 +64,7 @@ body {
     flex-direction: row-reverse;
 }
 
+.content a:visited {
+    color:blue;
+}
+
